@@ -1,7 +1,6 @@
 {
   "name": "git_homeworktwo",
   "version": "1.0.0",
-  "description": "",
   "homepage": "https://github.com/Anna-Maria662/git_tasks_AM#readme",
   "bugs": {
     "url": "https://github.com/Anna-Maria662/git_tasks_AM/issues"
@@ -16,5 +15,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
