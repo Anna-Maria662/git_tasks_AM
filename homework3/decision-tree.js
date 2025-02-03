@@ -1,4 +1,4 @@
-const b1 = true;
+const b1 = false;
 const b2 = false;
 
 if (b1 && b2) {

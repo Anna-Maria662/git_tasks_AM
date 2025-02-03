@@ -1,12 +1,15 @@
-const a = 6 || 3;
-console.log(a);
+const a = true;
+console.log(!a);
 
-let k = 4 && 5;
-console.log(k);
+let k = 4;
+console.log(k && a);
 
-b = JSON.parse("false".toLowerCase());
-b!=false
-console.log(typeof(b))
+let b = JSON.parse("false".toLowerCase());
+if (b == false);
+console.log(typeof(b));
 
-let c = !! false
+let c = ! null;
 console.log(c);
+
+
+
