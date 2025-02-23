@@ -12,7 +12,7 @@ const sumArray1 = (arr: any[]): number => {
     }
     sum += arr[i];
   }
-  return sum;
+  return sum; 
 };
 
 const stringArray1: string[] = ["1", "2", "3", "4", "5"];

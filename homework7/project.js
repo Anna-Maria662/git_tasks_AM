@@ -1,10 +1,10 @@
-const sumArray = function (arr) {
+var sumArray1 = function (arr) {
     if (!Array.isArray(arr)) {
         console.error("ERROR: Argument should be an array.");
         return NaN;
     }
-    let sum = 0;
-    for (let i = 0; i < arr.length; i++) {
+    var sum = 0;
+    for (var i = 0; i < arr.length; i++) {
         if (typeof arr[i] !== 'number') {
             console.warn("Pay attention: Element with index ".concat(i, " is not a number and will be ignored."));
             continue;
@@ -13,10 +13,10 @@ const sumArray = function (arr) {
     }
     return sum;
 };
-const stringArray = ["1", "2", "3", "4", "5"];
-const numberArray = [1, 2, 3, 4, 5, 6];
-const stringArrayFixed = stringArray.map(Number);
-const stringSum = sumArray(stringArrayFixed);
+var stringArray1 = ["1", "2", "3", "4", "5"];
+var numberArray1 = [1, 2, 3, 4, 5, 6];
+var stringArrayFixed = stringArray.map(Number);
+var stringSum1 = sumArray(stringArrayFixed);
 console.log("String elements sum:", stringSum);
-const numberSum = sumArray(numberArray);
+var numberSum1 = sumArray(numberArray);
 console.log("String numbers sum:", numberSum);

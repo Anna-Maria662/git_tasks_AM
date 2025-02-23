@@ -3,7 +3,7 @@ function sumArray(arr: any[]): number {
       console.error("ERROR: Argument should be an array.");
       return NaN;
     }
-  
+
     let sum: number = 0;
     for (let i: number = 0; i < arr.length; i++) {
       if (typeof arr[i] !== 'number') {
@@ -24,4 +24,6 @@ function sumArray(arr: any[]): number {
   
   const numberSum: number = sumArray(numberArray);
   console.log("String numbers sum:", numberSum);
+
+
   
